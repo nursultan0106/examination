@@ -76,6 +76,15 @@ i{
     color: black;
 }
 
+.btn{
+    background-color: #cccccc;
+    padding-top: 13px;
+}
+
 .img-responsive{
     width: 100%;
+}
+
+.nikemenu{
+    background-color: #b92c28;
 }
