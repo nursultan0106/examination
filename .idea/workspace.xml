@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26b86d59-b8a5-4708-9b5a-5e5e679c7b93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sale.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aboutus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contacts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,11 +38,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sale.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sale.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sale.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="50" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            <state relative-caret-position="376">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="64" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aboutus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,6 +142,8 @@
         <option value="$PROJECT_DIR$/nikeshoes.html" />
         <option value="$PROJECT_DIR$/shopping.html" />
         <option value="$PROJECT_DIR$/sale.html" />
+        <option value="$PROJECT_DIR$/contacts.html" />
+        <option value="$PROJECT_DIR$/aboutus.html" />
       </list>
     </option>
   </component>
@@ -205,12 +228,12 @@
       <workItem from="1519357032040" duration="5020000" />
       <workItem from="1519534040156" duration="4648000" />
       <workItem from="1519650554188" duration="8254000" />
-      <workItem from="1519732960775" duration="9357000" />
+      <workItem from="1519732960775" duration="10444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27986000" />
+    <option name="totallyTimeSpent" value="29073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -381,14 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nikeshoes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -407,8 +422,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sale.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="50" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        <state relative-caret-position="376">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="64" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nikeshoes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
