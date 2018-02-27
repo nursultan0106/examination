@@ -9,23 +9,221 @@
 </head>
 <body>
 <div id="wrapper">
-    <div id="header" class="table">
-        <div class="logo col-lg-3 col-md-3 col-sm-12 col-xs-12">
-            <a href="main.html">
-                <img src="img/logo.jpg" alt="logo" width="128" height="128">
-            </a>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                    <div class="logo">
+                        <a href="main.html">
+                            <img src="img/logo.jpg" alt="logo" width="92" height="92">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="filter text-center">
+                        <a href="#">
+                            Мужское |
+                        </a>
+                        <a href="#">
+                            Женское
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <input type="text" class="form-control search-input" placeholder="Поиск">
+                        <a href="#" class="search-icon">
+                            <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Меню
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">
+                                        Nike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Puma
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Adidas
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Li-ning
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Jeep
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Скидки
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                О Нас
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <i class="glyphicon glyphicon-shopping-cart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <div id="content">
+        <div id="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <a href="#">
+                                    <img class="img-responsive" src="img/nike.jpg" alt="">
+                                </a>
+                                <div class="carousel-caption">
+                                    <h1>Кроссовки</h1>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="img/adidas.jpg" alt="">
+                                </a>
+                                <div class="carousel-caption">
+                                    <h1>Весна-Лето</h1>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img class="img-responsive" src="img/nf.png" alt="">
+                                </a>
+                                <div class="carousel-caption">
+                                    <h1>Осень-Зима</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container collection">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#">
+                        <img class="img-responsive" src="img/row1.jpg" alt="">
+                    </a>
+                    <h3 class="text-center">
+                        Nike Air Max 95
+                    </h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <img class="img-responsive" src="img/row1.jpg" alt="">
+                    </a>
+                    <h3 class="text-center">
+                        Nike Air Max 95
+                    </h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <img class="img-responsive" src="img/row1.jpg" alt="">
+                    </a>
+                    <h3 class="text-center">
+                        Nike Air Max 95
+                    </h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <img class="img-responsive" src="img/row1.jpg" alt="">
+                    </a>
+                    <h3 class="text-center">
+                        Nike Air Max 95
+                    </h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <img class="img-responsive" src="img/row1.jpg" alt="">
+                    </a>
+                    <h3 class="text-center">
+                        Nike Air Max 95
+                    </h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <img class="img-responsive" src="img/row1.jpg" alt="">
+                    </a>
+                    <h3 class="text-center">
+                        Nike Air Max 95
+                    </h3>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="content">
-
-    </div>
     <div id="footer">
-
+        <div class="container">
+            <div class="row">
+                
+            </div>
+        </div>
     </div>
 </div>
 
 
 <script src="script/script.js"></script>
 <script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
