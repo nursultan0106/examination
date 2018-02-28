@@ -1,9 +1,14 @@
 body{
     font-family: 'Exo 2', sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar{
     margin-bottom: 0px;
+}
+
+.slick-next:before, .slick-prev:before{
+    color: #2b669a;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -87,4 +92,14 @@ i{
 
 .nikemenu{
     background-color: #b92c28;
+}
+
+#slider{
+    margin-top: 60px;
+}
+
+footer{
+    background-color: #cccccc;
+    margin-top: 60px;
+    padding: 40px;
 }
