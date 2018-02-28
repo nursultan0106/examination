@@ -5,12 +5,110 @@
     <title>WatchSport</title>
     <link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div id="wrapper">
     <header>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                    <div class="logo">
+                        <a href="main.html">
+                            <img src="img/logo.jpg" alt="logo" width="92" height="92">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="filter text-center">
+                        <a href="#">
+                            Мужское |
+                        </a>
+                        <a href="#">
+                            Женское
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <input type="text" class="form-control search-input" placeholder="Поиск">
+                        <a href="#" class="search-icon">
+                            <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Меню
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">
+                                        Nike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Puma
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Adidas
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Li-ning
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Jeep
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="sale.html">
+                                Скидки
+                            </a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html">
+                                О Нас
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="shopping.html">
+                                <i class="glyphicon glyphicon-shopping-cart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#myModal">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
     </header>
     <div id="content">
         <div class="container">
@@ -30,15 +128,164 @@
             </div>
         </div>
     </div>
-    <footer>
+    <div id="slider">
+        <div class="container">
+            <div class="row">
 
+                <div class="col-md-12">
+                    <div class="responsive slick text-center">
+                        <div>
+                            <a href="#"><img class="img-responsive" src="img/row1.jpg" alt=""></a>
+                            <h4 >10000сом</h4>
+                        </div>
+                        <div>
+                            <a href="#"><img class="img-responsive" src="img/row2.jpg" alt=""></a>
+                            <h4>15000сом</h4>
+                        </div>
+                        <div>
+                            <a href="#"><img class="img-responsive" src="img/row1.jpg" alt=""></a>
+                            <h4 >10000сом</h4>
+                        </div>
+                        <div>
+                            <a href="#"><img class="img-responsive" src="img/row2.jpg" alt=""></a>
+                            <h4>15000сом</h4>
+                        </div>
+                        <div>
+                            <a href="#"><img class="img-responsive" src="img/row1.jpg" alt=""></a>
+                            <h4 >10000сом</h4>
+                        </div>
+                        <div>
+                            <a href="#"><img class="img-responsive" src="img/row2.jpg" alt=""></a>
+                            <h4>15000сом</h4>
+                        </div>
+                        <div>
+                            <a href="#"><img class="img-responsive" src="img/row1.jpg" alt=""></a>
+                            <h4 >10000сом</h4>
+                        </div>
+                        <div>
+                            <a href="#"><img class="img-responsive" src="img/row2.jpg" alt=""></a>
+                            <h4>15000сом</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-bottom" style="background-color: black   ">
+                    <div class="col-md-6">
+                        &copy; 2018 All rights received
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Addres:</strong>Kyrgyzstan Bishkek Moldybaeva st. Ilim 3rd corps IT-technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab">Войти</a></li>
+                    <li><a href="#profile" data-toggle="tab">Регистрация</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home">
+                        <form action="#">
+                            <br>
+                            <input type="text" class="form-control" placeholder="Логин">
+                            <br>
+                            <input type="password" class="form-control" placeholder="Пароль">
+                            <br>
+                            Запомнить меня
+                            <input type="radio">
+                            <br>
+                            <br>
+                            <button class="btn btn-primary">
+                                Войти
+                            </button>
+                            <br>
+                        </form>
+                    </div>
+                    <div class="tab-pane" id="profile">
+                        <form action="#">
+                            <br>
+                            <input type="text" class="form-control" placeholder="ФИО">
+                            <br>
+                            <input type="text" class="form-control" placeholder="Логин">
+                            <br>
+                            <input type="text" class="form-control" placeholder="Пароль">
+                            <br>
+                            <input type="text" class="form-control" placeholder="Повторите пароль">
+                            <br>
+                            Я не робот
+                            <input type="radio">
+                            <br>
+                            <br>
+                            <button class="btn btn-primary">
+                                Я прочитал и принимаю условия соглашения
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-<script src="script/script.js"></script>
-<script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="script/script.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.responsive').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
 </body>
 </html>
